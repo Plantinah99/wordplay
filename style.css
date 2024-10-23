@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #87CEEB; /* light blue */
     color: #333;
 }
 
@@ -26,6 +26,7 @@ body {
 #main-content {
     margin-left: 200px;
     padding: 20px;
+    background-color: #ADD8E6; /* pale blue */
 }
 
 #home-page {
