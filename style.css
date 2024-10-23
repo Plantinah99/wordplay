@@ -5,7 +5,7 @@ body {
 }
 
 #sidebar {
-    background-color: #4CAF50;
+    background-color: #2196F3; /* dark blue */
     padding: 20px;
     width: 200px;
     height: 100vh;
@@ -39,6 +39,7 @@ body {
 #question {
     font-size: 24px;
     margin-bottom: 20px;
+    color: #42A5F5; /* light blue */
 }
 
 #answers {
@@ -46,7 +47,7 @@ body {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #64B5F6; /* sky blue */
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -55,21 +56,21 @@ button {
 }
 
 button:hover {
-    background-color: #3e8e41;
+    background-color: #56B3FA; /* light sky blue */
 }
 
 .correct {
-    color: #2ecc71;
+    color: #0097A7; /* teal */
 }
 
 .incorrect {
-    color: #e74c3c;
+    color: #EF5350; /* dark red */
 }
 
 .correct-answer {
-    background-color: #2ecc71;
+    background-color: #0097A7; /* teal */
 }
 
 .incorrect-answer {
-    background-color: #e74c3c;
+    background-color: #EF5350; /* dark red */
 }
