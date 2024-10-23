@@ -9,9 +9,10 @@
   },
   "dependencies": {
     "express": "^4.17.1",
+    "mongoose": "^5.10.18",
+    "netlify-cli": "^17.37.1",
     "passport": "^0.4.1",
-    "passport-local": "^1.0.0",
-    "mongoose": "^5.10.18"
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
     "postcss": "^8.3.6",
