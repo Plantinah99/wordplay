@@ -1,27 +1,21 @@
 {
-  "name": "mathemagics",
+  "name": "your-app-name",
   "version": "1.0.0",
-  "description": "",
-  "main": "questions.js",
-  "dependencies": {
-    "express": "^4.21.1",
-    "mongoose": "^8.7.2",
-    "passport": "^0.7.0",
-    "passport-local": "^1.0.0"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "build": "npm run build:css && npm run build:js",
+    "build:css": "postcss stylesheets/styles.css -o public/css/styles.css",
+    "build:js": "webpack --mode production"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/plantinah99/mathemagics.git"
+  "dependencies": {
+    "express": "^4.17.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "mongoose": "^5.10.18"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/plantinah99/mathemagics/issues"
-  },
-  "homepage": "https://github.com/plantinah99/mathemagics#readme"
+  "devDependencies": {
+    "postcss": "^8.3.6",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  }
 }
